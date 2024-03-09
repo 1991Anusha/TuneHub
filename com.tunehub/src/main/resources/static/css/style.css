@@ -1,0 +1,62 @@
+
+html,body{
+	margin:0;
+	padding:0;
+	height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://github.com/1991Anusha/logos/blob/main/Background-2.jpg?raw=true");
+    background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+h1{
+	position:absolute;
+	top:10px;
+	color:white;
+	text-align: center;
+	font-size: 170px;
+	font-family:"Montserrat", sans-serif;
+}
+
+
+
+.btn {
+	display:inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+ 	background-color:grey;
+ 	transition: background-color 0.3s ease;
+  	color: white;
+    border-radius: 5px;
+    position: absolute;
+  	bottom: 15%;
+  	left: 35%;
+  	font-family:"Montserrat", sans-serif;
+  	font-size:20px;
+}
+
+.btn:hover {
+    background-color:black ;
+}
+.btn1 {
+	display:inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+  	background-color: grey;
+  	transition: background-color 0.3s ease;
+  	color: white;
+    border-radius: 5px;
+    position: absolute;
+  	bottom: 15%;
+  	left: 55%;
+  	font-family:"Montserrat", sans-serif;
+  	font-size:20px;
+}
+
+.btn1:hover {
+    background-color: black;
+}
